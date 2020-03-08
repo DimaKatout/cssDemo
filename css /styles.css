@@ -1,0 +1,45 @@
+/*this way is like a reset*/
+
+*{margin:0;
+}
+
+div{border:1px solid;
+background-color:darkgray ;}
+
+.navbar{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    background-color: darkgreen;
+    opacity: .5;
+    height: 150px;
+
+}
+nav img{
+    float: left;
+    margin-top: 15px;
+    margin-right: 30px;
+}
+
+nav ul li
+{
+    list-style: none;
+    display: inline-block;
+    padding: 10px;
+    margin-top: 40px;
+    margin-right: 75px;
+
+}
+
+.left-menu, .main-content , .right-pane{
+height: 1000px;
+}
+.main-content{
+    /*ra7 yebda alkalam ba3ed 150 eno yekoon fi fara3' shwai abel ma yebda alkalam*/
+    
+    margin-top: 150px;
+    background-color: darksalmon;
+    font-size: 24px;
+    text-align: center;
+    clear: both;
+}
